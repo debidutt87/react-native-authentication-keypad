@@ -1,0 +1,29 @@
+{
+  "name": "react-native-authentication-keypad",
+  "version": "1.0.0",
+  "description": "A React Native plugin for authentication keyboard with native implementations for Android and iOS.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint src",
+    "build": "echo 'Add your build steps for Android and/or iOS if necessary'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/debidutt87/react-native-authentication-keypad"
+  },
+  "keywords": ["react-native", "keyboard", "authentication", "plugin"],
+  "author": "Debidutt Prasad <debidutt87@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-native": ">=0.63.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.14.0",
+    "jest": "^26.6.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
